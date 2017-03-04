@@ -11,4 +11,5 @@ plot[:][:]'result_clock_gettime.csv' using 1:2 title 'Baseline', \
 '' using 1:3 title 'OpenMP(2 threads)', \
 '' using 1:4 title 'OpenMP(4 threads)', \
 '' using 1:5 title 'AVX', \
-'' using 1:6 title 'AVX + Unroll looping'
+'' using 1:6 title 'AVX + Unroll looping', \
+'' using 1:7 title 'Leibniz'
